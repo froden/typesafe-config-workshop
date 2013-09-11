@@ -1,10 +1,10 @@
 package scalaogjvm
 
 import org.scalatest._
-import com.typesafe.config.{ConfigException, Config, ConfigFactory}
+import com.typesafe.config.{ConfigException, ConfigFactory}
 
 class SettingsTest extends FlatSpec {
-  "The settings object" should "load default my-app config from file" in {
+  "The settings object" should "load configuration for 'my-app' from application.conf" in {
     val settings = Settings.load()
     assert(settings.env === "dev")
     assert(settings.jdbcUrl === "jdb:hsql:mem")
