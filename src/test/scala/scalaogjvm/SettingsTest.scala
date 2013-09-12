@@ -8,6 +8,7 @@ class SettingsTest extends FlatSpec {
     val settings = Settings.load()
     assert(settings.env === "dev")
     assert(settings.jdbcUrl === "jdb:hsql:mem")
+    assert(settings.fileSize === 1000000)
   }
 
   it should "load secret properties from secret.conf" in {

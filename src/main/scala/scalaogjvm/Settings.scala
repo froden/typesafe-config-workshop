@@ -9,6 +9,7 @@ class Settings(config: Config) {
   val jdbcUrl = config.getString("jdbc.url")
   val jdbcTimeout = config.getMilliseconds("jdbc.timeout")
   val debug = config.getBoolean("debug")
+  val fileSize = config.getBytes("file-size")
 }
 
 object Settings {
