@@ -21,7 +21,7 @@ Før møtet
 
    **IntelliJ plugin**
 
-       Preferences -> plugins -> Install JetBrains plugins… -> Scala
+        Preferences -> plugins -> Install JetBrains plugins… -> Scala
 
 3. **Last ned kildekoden**
        
@@ -34,11 +34,11 @@ Før møtet
 
    Eclipse
    
-       sbt eclipse
+        sbt eclipse
    
    IntelliJ
    
-       sbt gen-idea
+        sbt gen-idea
 
 5. **Få testene grønne!**
    
