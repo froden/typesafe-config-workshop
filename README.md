@@ -25,12 +25,12 @@ Før møtet
 
 3. **Last ned kildekoden**
        
-       git clone git@github.com:froden/typesafe-config-workshop.git
+        git clone git@github.com:froden/typesafe-config-workshop.git
 
 4. **Sett opp prosjektet**
 
-       cd typesafe-config-workshop
-       sbt update
+        cd typesafe-config-workshop
+        sbt update
 
    Eclipse
    
@@ -42,11 +42,11 @@ Før møtet
 
 5. **Få testene grønne!**
    
-       scalaogjvm.SettingsTest
+        scalaogjvm.SettingsTest
    
    * Kommenter inn utkommentert kode i testene
-   * Ikke endre noe i testene
-   * **Får det til å kompilere og testene grønne**
+   * Ikke endre noe i testene eller config-filene
+   * **Få det til å kompilere og testene grønne**
    
 Lykke til!
 ----------
