@@ -35,6 +35,9 @@ class SettingsTest extends FlatSpec {
     val settings = Settings.load()
     assert(settings.jdbcUser === "frode")
     assert(settings.jdbcPassword === "db-123")
+    System.clearProperty("my-app.jdbc.username")
+    System.clearProperty("my-app.jdbc.password")
+    ConfigFactory.invalidateCaches()
   }
 
   it should "load time units as milliseconds" in {
