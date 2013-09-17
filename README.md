@@ -47,6 +47,8 @@ Før møtet
    * Kommenter inn utkommentert kode i testene
    * Ikke endre noe i testene eller config-filene
    * **Få det til å kompilere og testene grønne**
+
+### [Dokumentasjon og kildekode på github](https://github.com/typesafehub/config)
    
 Lykke til!
 ----------
